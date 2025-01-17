@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <title>
+      Send Email
+    </title>
+    <script>
+      // Function to handle file upload and send it via POST request
+function uploadFile() {
+  const fileInput = document.getElementById('fileInput');
+  const formData = new FormData();
+  formData.append('file', fileInput.files[0]);
+
+  fetch('server-upload.php', {
+    method: 'POST',
+    body: formData,
+  })
+  .then(response => response.json())
+  .then(data => {
+    console.log('File upload successful:', data);
+  })
+  .catch(error => {
+    console.error('Error during file upload:', error);
+  });
+}
+
+// HTML file input
+
+
+    </script>
+  </head>
+  <body>
+    <input type="file" id="fileInput" />
+                            <button onclick="uploadFile()">Upload File</button>
+  </body>
+</html>

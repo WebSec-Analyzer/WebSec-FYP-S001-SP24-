@@ -1,0 +1,109 @@
+.queries .email-us-your-queries {
+  margin-bottom: 53px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Outfit';
+  font-weight: 600;
+  font-size: 45px;
+  letter-spacing: 3.2px;
+  line-height: 1.389;
+  color: #FFFFFF;
+}
+.queries .full-name {
+  overflow-wrap: break-word;
+  font-family: 'Outfit';
+  font-weight: 600;
+  font-size: 32px;
+  letter-spacing: 2.2px;
+  line-height: 1.953;
+  color: rgba(0, 0, 0, 0.3);
+}
+.queries .container-3 {
+  background: #D9D9D9;
+  position: relative;
+  margin: 0 11px 36px 0;
+  padding-bottom: 3px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.queries .contact-number {
+  overflow-wrap: break-word;
+  font-family: 'Outfit';
+  font-weight: 600;
+  font-size: 32px;
+  letter-spacing: 2.2px;
+  line-height: 1.953;
+  color: rgba(0, 0, 0, 0.3);
+}
+.queries .container-2 {
+  background: #D9D9D9;
+  position: relative;
+  margin: 0 11px 36px 0;
+  padding-bottom: 3px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.queries .organization-name {
+  overflow-wrap: break-word;
+  font-family: 'Outfit';
+  font-weight: 600;
+  font-size: 32px;
+  letter-spacing: 2.2px;
+  line-height: 1.953;
+  color: rgba(0, 0, 0, 0.3);
+}
+.queries .container {
+  background: #D9D9D9;
+  position: relative;
+  margin: 0 11px 36px 0;
+  padding-bottom: 3px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.queries .enter-your-message-here {
+  overflow-wrap: break-word;
+  font-family: 'Outfit';
+  font-weight: 600;
+  font-size: 32px;
+  letter-spacing: 2.2px;
+  line-height: 1.953;
+  color: rgba(0, 0, 0, 0.3);
+}
+.queries .container-1 {
+  background: #D9D9D9;
+  position: relative;
+  margin: 0 11px 22px 0;
+  padding: 30px 26px 0 26px;
+  width: fit-content;
+  height: 246px;
+  box-sizing: border-box;
+}
+.queries .submit {
+  overflow-wrap: break-word;
+  font-family: 'Outfit';
+  font-weight: 600;
+  font-size: 32px;
+  letter-spacing: 2.2px;
+  line-height: 1.953;
+  color: #000000;
+}
+.queries .submit-btn {
+  border-radius: 50px;
+  background: rgba(143, 143, 219, 0.85);
+  position: relative;
+  margin-right: 15px;
+  display: flex;
+  padding: 0 10.8px 1px 0;
+  width: 204.4px;
+  box-sizing: border-box;
+}
+.queries {
+  border-radius: 30px;
+  background: rgba(135, 207, 208, 0.85);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 36px 0 76px 0;
+  width: 1857px;
+  box-sizing: border-box;
+}

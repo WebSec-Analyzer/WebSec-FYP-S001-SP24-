@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assessment</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0e0e3b;
+            color: white;
+            margin: 0;
+            padding: 0;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .assessment {
+            margin: 0 auto 80px;
+            text-align: center;
+            overflow-wrap: break-word;
+            font-family: sans-serif;
+            font-weight: 600;
+            font-size: 60px;
+            line-height: 1.042;
+            color: #FFFFFF;
+            width: 100%;
+            max-width: 1000px;
+        }
+
+        .line-1 {
+            background: #FFFFFF;
+            position: absolute;
+            left: 8px;
+            bottom: 33px;
+            width: 402px;
+            height: 0px;
+        }
+
+        .list-item {
+            position: relative;
+            display: flex;
+            align-self: flex-start;
+            padding: 33px 41.7px 32px 8px;
+            box-sizing: border-box;
+            text-decoration: none;
+            color: white;
+            margin: 10px 0;
+            font-size: 45px;
+            font-family: 'Outfit';
+            font-weight: 600;
+            letter-spacing: 3.2px;
+            line-height: 1.389;
+            transition: background-color 0.3s;
+        }
+
+        .highlight {
+            background-color: rgba(135, 207, 208, 0.85);
+        }
+
+        .network-scanning-1,
+        .sub-domain-discovery-1,
+        .tcp-dump-analysis-1,
+        .sql-injection,
+        .cross-site-scripting {
+            position: relative;
+            overflow-wrap: break-word;
+            font-family: 'Outfit';
+            font-weight: 600;
+            font-size: 45px;
+            letter-spacing: 3.2px;
+            line-height: 1.389;
+            color: rgba(255, 255, 255, 0.75);
+        }
+
+        .line-2,
+        .line-3,
+        .line-4,
+        .line-5 {
+            background: #FFFFFF;
+            height: 0px;
+        }
+
+        .line-2 {
+            margin: 0 0 31px 8px;
+            width: 508px;
+        }
+
+        .line-3 {
+            margin: 0 4px 40px 4px;
+            width: 436px;
+        }
+
+        .line-4 {
+            margin-left: 8px;
+            width: 306px;
+        }
+
+        .line-5 {
+            position: absolute;
+            left: 5px;
+            bottom: 1px;
+            width: 454px;
+        }
+
+        .sql-section {
+            margin-bottom: 36px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            align-self: flex-start;
+            width: fit-content;
+            box-sizing: border-box;
+        }
+
+        .container-22 {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            box-sizing: border-box;
+        }
+
+        .container-3 {
+            position: relative;
+            margin: 27px 158px 38px 0;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .vulnerability-network-scanning {
+            margin-bottom: 28px;
+            display: inline-block;
+            align-self: flex-start;
+            overflow-wrap: break-word;
+            font-family: 'Outfit';
+            font-weight: 600;
+            font-size: 45px;
+            padding-left: 30px;
+            line-height: 1.389;
+            color: #FFFFFF;
+        }
+
+        .container-4 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container-2 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="assessment">
+        Assessment
+    </div>
+    <div class="container-4">
+        <div class="container-3">
+            <div class="container-22">
+                <a href="#" class="list-item" onclick="highlight(this, 'Network Scanning')">Network Scanning</a>
+                <a href="#" class="list-item" onclick="highlight(this, 'Sub Domain Discovery')">Sub Domain Discovery</a>
+                <a href="#" class="list-item" onclick="highlight(this, 'TCP Dump Analysis')">TCP Dump Analysis</a>
+                <a href="#" class="list-item" onclick="highlight(this, 'SQL Injection')">SQL Injection</a>
+                <a href="#" class="list-item" onclick="highlight(this, 'Cross-site Scripting')">Cross-site Scripting</a>
+            </div>
+            <div class="container-2">
+                <div class="vulnerability-network-scanning">
+                    <h2 class="text-white">Vulnerability: <span id="vulnerability-text">Network Scanning</span></h2>
+                </div>
+                <div style="background-color: #6A6BB1; display: block; justify-content: center; align-items: center; height: 30vh; width: 80%; border-radius: 50px; margin: 0;">
+                    <div style="text-align: center;"> <br>
+                        <p style="color: white; font-family: Arial, sans-serif; font-size: 18px;">Please Enter/Paste URL:</p>
+                        <input type="text" value="www.facebook.com"
+                            style="background-color: #b2f0fb; color: #172a47; border: none; padding: 10px; border-radius: 5px; font-size: 16px; font-weight: bold; text-align: center; width: 300px;">
+                        <br><br>
+                        <button id="start-btn"
+                        style="background-color: #9fe9ea; color: #172a47; border: none; padding: 10px 20px; border-radius: 5px; font-size: 16px; font-weight: bold;">
+                        Start
+                    </button>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div>
+                    <img src="./assets/screenshot_202405261337061.png" class="img-fluid" alt="baner"><br><br>
+                    <div style="display: flex; justify-content: center; gap: 20px;">
+                        <button
+                            style="background-color: #9fe9ea; color: #172a47; border: none; padding: 10px 20px; border-radius: 5px; font-size: 16px; font-weight: bold;">Download
+                            Report as PDF</button>
+                        <button
+                            style="background-color: #4d497f; color: white; border: none; padding: 10px 20px; border-radius: 5px; font-size: 16px; font-weight: bold;">Email
+                            Me Report</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+    </div>
+    <br>
+    <br>
+    <section class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div style="max-width: 700px; margin: auto;">
+                    <div style="background-color: #6A6BB1; display: block; justify-content: center; align-items: center; height: 30vh; border-radius: 50px; margin: 0;">
+                        <div style="text-align: center;"> <br>
+                            <p style="color: white; font-family: Arial, sans-serif; font-size: 18px;">Email:</p>
+                            <div style="display: flex; align-items: center;">
+                                <div
+                                    style="background-color: #b2f0fb; color: #172a47; border: none; padding: 10px; border-radius: 5px; font-size: 16px; font-weight: bold; display: flex; align-items: center; margin-right: 10px; text-align: center;">
+                                    <img src="./assets/pdficon.png" style="height: 20px; margin-right: 5px;">
+                                    <input type="text" value="Nmap_scan_report.pdf"
+                                        style="background-color: #b2f0fb; color: #172a47; border: none; padding: 10px; border-radius: 5px; font-size: 16px; font-weight: bold; text-align: center; ; width: 300px;">
+                                    <br><br>
+                                    <button
+                                        style="background-color: #9fe9ea; color: #172a47; border: none; padding: 10px 20px; border-radius: 5px; font-size: 16px; font-weight: bold;">Send</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </section>
+    <script>
+        function highlight(element, text) {
+            const items = document.querySelectorAll('.list-item');
+            items.forEach(item => item.classList.remove('highlight'));
+            element.classList.add('highlight');
+            document.getElementById('vulnerability-text').innerText = text;
+        }
+
+        function checkLogin() {
+            let isLoggedIn = false; // Change this to true when the user is logged in
+
+            if (!isLoggedIn) {
+                alert("You need to login/signup first.");
+                window.location.href = "login.html"; // Redirect to login page
+            }
+        }
+
+        // Add event listener to the "Start" button
+        document.getElementById("start-btn").addEventListener("click", function () {
+            checkLogin(); // Check login when user clicks "Start"
+        });
+    </script>
+</body>
+
+</html>

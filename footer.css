@@ -1,0 +1,123 @@
+.footer .rohu-0671-gmail-com-rohaaankhaan-03112055546-khanahmer-923-gmail-com-khanahmer-92303362291414-aqsashaikh-123-gmail-com-aqsashaikh-03041234567 {
+  margin-right: 16.6px;
+  overflow-wrap: break-word;
+  font-family: 'Outfit';
+  font-weight: 600;
+  font-size: 30px;
+  letter-spacing: 2.1px;
+  line-height: 2.083;
+  color: #FFFFFF;
+}
+.footer .iconphone {
+  margin-bottom: 13px;
+  width: 54px;
+  height: 49px;
+}
+.footer .iconphone-1 {
+  margin-bottom: 8px;
+  width: 54px;
+  height: 49px;
+}
+.footer .iconphone-2 {
+  width: 54px;
+  height: 49px;
+}
+.footer .container-1 {
+  margin: 5px 0 16px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 54px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.footer .container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.footer .vector {
+  width: 53.3px;
+  height: 36px;
+}
+.footer .iconemail-outline {
+  position: absolute;
+  left: 351.3px;
+  top: 9px;
+  display: flex;
+  width: 64px;
+  height: 54px;
+  box-sizing: border-box;
+}
+.footer .vector-2 {
+  width: 53.3px;
+  height: 36px;
+}
+.footer .iconemail-outline-2 {
+  position: absolute;
+  left: 430.3px;
+  bottom: 57px;
+  display: flex;
+  width: 64px;
+  height: 54px;
+  box-sizing: border-box;
+}
+.footer .vector-1 {
+  width: 53.3px;
+  height: 36px;
+}
+.footer .iconemail-outline-1 {
+  position: absolute;
+  left: 430.3px;
+  top: 76px;
+  display: flex;
+  width: 64px;
+  height: 54px;
+  box-sizing: border-box;
+}
+.footer .vector-3 {
+  width: 54px;
+  height: 45px;
+}
+.footer .iconinstagram-icon {
+  position: absolute;
+  top: 9px;
+  right: 781px;
+  display: flex;
+  width: 54px;
+  height: 45px;
+  box-sizing: border-box;
+}
+.footer .vector-4 {
+  width: 54px;
+  height: 45px;
+}
+.footer .iconinstagram-icon-1 {
+  position: absolute;
+  top: 71px;
+  right: 781px;
+  display: flex;
+  width: 54px;
+  height: 45px;
+  box-sizing: border-box;
+}
+.footer .vector-5 {
+  width: 54px;
+  height: 45px;
+}
+.footer .iconinstagram-icon-2 {
+  position: absolute;
+  right: 781px;
+  bottom: 57px;
+  display: flex;
+  width: 54px;
+  height: 45px;
+  box-sizing: border-box;
+}
+.footer {
+  background: rgba(135, 207, 208, 0.85);
+  padding-bottom: 53px;
+  width: 1857px;
+  box-sizing: border-box;
+}

@@ -1,0 +1,75 @@
+.iconfile-type-pdf-2 .vector {
+  position: absolute;
+  top: 0.1px;
+  right: 0px;
+  width: 34.9px;
+  height: 54.9px;
+}
+.iconfile-type-pdf-2 .vector-1 {
+  position: absolute;
+  top: 0px;
+  right: 0.1px;
+  width: 34.9px;
+  height: 54.9px;
+}
+.iconfile-type-pdf-2 .vector-2 {
+  position: absolute;
+  left: 0px;
+  top: 2.9px;
+  width: 33.7px;
+  height: 13.4px;
+}
+.iconfile-type-pdf-2 .container-3 {
+  margin: 0px 1.1px 0px 0;
+  width: 4.8px;
+  height: 9.4px;
+}
+.iconfile-type-pdf-2 .container {
+  margin-right: 1.1px;
+  width: 5.2px;
+  height: 9.5px;
+}
+.iconfile-type-pdf-2 .container-4 {
+  margin: 0px 0;
+  width: 4.1px;
+  height: 9.4px;
+}
+.iconfile-type-pdf-2 .container-5 {
+  background: #DD2025;
+  position: relative;
+  margin: 2.6px 2.5px 0 0;
+  display: flex;
+  flex-direction: row;
+  padding: 2.2px 8.4px 1.7px 9px;
+  height: fit-content;
+  flex-grow: 1;
+  flex-basis: 33.6px;
+  box-sizing: border-box;
+}
+.iconfile-type-pdf-2 .container-2 {
+  margin-bottom: 4.4px;
+  width: 9.4px;
+  height: 11.5px;
+}
+.iconfile-type-pdf-2 .container-1 {
+  position: relative;
+  margin-bottom: 4.1px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+}
+.iconfile-type-pdf-2 .vector-7 {
+  position: relative;
+  margin: 0 6.2px 0 17.6px;
+  width: 21.8px;
+  height: 24.9px;
+}
+.iconfile-type-pdf-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.2px 0.2px 9.9px 0.2px;
+  box-sizing: border-box;
+}

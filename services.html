@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flowchart</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f9;
+        }
+
+        .flowchart-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        /* Box styles */
+        .box {
+            width: 200px;
+            padding: 20px;
+            margin-bottom: 20px;
+            border: 2px solid #333;
+            border-radius: 8px;
+            background-color: #fff;
+        }
+
+        .start-end-box {
+            background-color: #cce5ff;
+        }
+
+        .process-box {
+            background-color: #e2e3e5;
+        }
+
+        .decision-box {
+            background-color: #ffcccb;
+        }
+
+        /* Arrow styles */
+        .arrow {
+            width: 0;
+            height: 0;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            border-top: 20px solid #333;
+            margin-bottom: 20px;
+        }
+
+        /* Icon box for middle logo */
+        .icon-box {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+            width: 120px; /* Adjust as necessary */
+            height: 120px; /* Adjust as necessary */
+        }
+
+        .icon {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+        }
+
+        /* Flexbox structure to make everything align properly */
+        .flowchart-row {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            max-width: 700px;
+        }
+
+        .flowchart-column {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="flowchart-container">
+        <!-- Row for top boxes and logo -->
+        <div class="flowchart-row">
+            <div class="flowchart-column">
+                <div class="box start-end-box">
+                    <p>Start</p>
+                </div>
+                <div class="arrow"></div>
+            </div>
+
+            <!-- Middle logo -->
+            <div class="icon-box">
+                <img src="icon.jpeg" alt="Logo" class="icon">
+            </div>
+
+            <div class="flowchart-column">
+                <div class="box start-end-box">
+                    <p>End</p>
+                </div>
+                <div class="arrow"></div>
+            </div>
+        </div>
+
+        <!-- Row for process and decision boxes -->
+        <div class="flowchart-row">
+            <div class="flowchart-column">
+                <div class="box process-box">
+                    <p>Process</p>
+                </div>
+                <div class="arrow"></div>
+            </div>
+
+            <div class="flowchart-column">
+                <div class="box decision-box">
+                    <p>Decision</p>
+                </div>
+                <div class="arrow"></div>
+            </div>
+        </div>
+
+        <!-- Row for another process box -->
+        <div class="flowchart-row">
+            <div class="flowchart-column">
+                <div class="box process-box">
+                    <p>Process 2</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

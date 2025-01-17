@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Plans</title>
+</head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #0e0e3b;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+p {
+    margin-bottom: 2em;
+}
+
+.plans {
+    display: flex;
+    justify-content: space-around;
+}
+
+.plan {
+    background-color: #70a5a8;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pro-plan {
+    background-color: #7b73a8;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    text-align: left;
+    margin: 0.5em 0;
+}
+
+</style>
+<body>
+    <div class="container">
+        <h1>Pricing</h1>
+        <p>We provide two plans for your Security Assessment.</p>
+        <div class="plans">
+            <div class="plan free-plan">
+                <h2>Free Plan</h2>
+                <ul>
+                    <li>Network Scanning</li>
+                    <li>SQL Attack Injection</li>
+                    <li>TCP Dump Analysis</li>
+                    <li>On-Site Report Viewing</li>
+                </ul>
+            </div>
+            <div class="plan pro-plan">
+                <h2>Pro Plan (For only 5$)</h2>
+                <ul>
+                    <li>Network Scanning</li>
+                    <li>SQL Attack Injection</li>
+                    <li>TCP Dump Analysis</li>
+                    <li>Cross Site Scripting</li>
+                    <li>Sub Domain Discovery</li>
+                    <li>On-Site Report Viewing</li>
+                    <li>Downloadable Report (PDF Form)</li>
+                    <li>E-mailing Report to Given Address</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
